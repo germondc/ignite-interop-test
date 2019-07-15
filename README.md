@@ -2,4 +2,4 @@
 
 Requires the Ignite c++ source to be downloaded and compiled. This Java program will read from the cache the data pushed by the Ignite c++ example: [thin-client-put-get-example](https://github.com/apache/ignite/tree/master/modules/platforms/cpp/examples/thin-client-put-get-example)
 
-The ignite.xml in resources needs to be updated to connect correctly to the remote cache (or changed to local if needed)
+The [ignite.xml](src/main/resources/ignite.xml) in resources needs to be updated to connect correctly to the remote cache (or changed to local if needed)
